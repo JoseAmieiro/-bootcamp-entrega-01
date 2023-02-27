@@ -22,7 +22,7 @@ input {
     position: relative;
 }
 
-.img.avatar {
+.avatar {
     width: 20%;
     border-radius: 50%;
 }
@@ -39,4 +39,9 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+#actions {
+    display: flex;
+    justify-content: center;
 }
